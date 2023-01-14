@@ -4,7 +4,7 @@
     /* Visit https://aka.ms/tsconfig to read more about this file */
     "baseUrl": "./src",
     "target": "esnext",
-    "moduleResolution": "node",
+    "esModuleInterop": true,
     "outDir": "./build",
     /* Projects */
     "incremental": false /* Save .tsbuildinfo files to allow for incremental compilation of projects. */,
